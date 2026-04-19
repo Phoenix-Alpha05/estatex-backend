@@ -11,7 +11,7 @@ services:
       - key: API_V1_STR
         value: /api/v1
       - key: CORS_ORIGINS
-        value: '["*"]'
+        value: "*"
       - key: PYTHON_VERSION
         value: 3.11.9
     healthCheckPath: /api/v1/health
