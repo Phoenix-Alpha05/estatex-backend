@@ -10,7 +10,7 @@ services:
         value: production
       - key: API_V1_STR
         value: /api/v1
-      - key: CORS_ORIGINS
+      - key: CORS_ORIGINS: https://estatex.bolt.host
         value: "*"
       - key: PYTHON_VERSION
         value: 3.11
