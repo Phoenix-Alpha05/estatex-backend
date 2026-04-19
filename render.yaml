@@ -13,5 +13,5 @@ services:
       - key: CORS_ORIGINS: '["https://estatex.bolt.host"]'
         value: "*"
       - key: PYTHON_VERSION
-        value: 3.11
+        value: 3.11.9
     healthCheckPath: /api/v1/health
