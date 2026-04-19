@@ -8,13 +8,10 @@ services:
     envVars:
       - key: ENV
         value: production
-
       - key: API_V1_STR
         value: /api/v1
-
       - key: CORS_ORIGINS
-        value: '["*"]'
-
+        value: '["https://estatex.bolt.host"]'
       - key: PYTHON_VERSION
         value: 3.11.9
 
